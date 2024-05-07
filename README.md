@@ -1,5 +1,5 @@
-# EXP 6: Series Queues with infinite capacity - Open Jackson Network
-## Date:
+# Series Queues with infinite capacity - Open Jackson Network
+# DATE:
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
 
@@ -18,16 +18,16 @@ Visual components and Python
 
 ## Experiment:
 
-![277123017-ab09dd11-9276-4ef8-903a-7e27eb759f20](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/c046f7ce-38a1-476f-b832-6d536213d4e5)
+![exp6](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/8174c246-d4fb-4c73-8ecc-48bed11c80fb)
 
-![277123025-d3b25f72-b148-49d8-8882-b499a602aa31](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/a133f449-0960-4856-9cb2-c64576c7e6b8)
+![exp6 1](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/0ef077a1-29ac-4a7d-af4d-ee190017819a)
 
 
-## Program
-```py
-Developed by : Ragavendran A
-Register number : 212222230114
+## Program:
+NAME:- Ragavendran A
+REGISTER NO:-212222230114
 
+```python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
@@ -66,8 +66,9 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
 ```
-## Output
-![280449150-ddaddd8f-f0e0-4573-8592-55278889542b](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/2a38a741-ddc1-4d6c-b6b8-5a2289769ac8)
+## Output:
+![j2](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/6805b552-88b9-4528-895a-481778f7daf6)
 
-## Result
+
+## Result:
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
